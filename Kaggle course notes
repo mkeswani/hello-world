@@ -1,0 +1,31 @@
+INTRO TO MACHINE LEARNING:
+
+DECISION TREES: Break the data into different groups and determine hte response in each group
+
+Fitting/Training the model - capturing patterns from the data
+"Deeper" trees - trees that have more "splits" to capture additional factors
+Leaf - The point at the bottom where we make a prediction
+
+EDA:
+
+- Get summary stats for all variables --> dataframe.describe()
+
+- Checks for data quality (in house prices, theres no data after 2010)
+
+- drop missing values --> df = df.dropna(axis=0)
+
+- look at histograms (univariate analysis)
+
+- look at box plots for summary statistics 
+
+
+
+Building your Model:
+
+Define - what type of model it will be (regression/decision tree/clustering) 
+
+Fit - capture patterns provided in the data
+
+Predict 
+
+Evaluate - determine the model's accuracy
